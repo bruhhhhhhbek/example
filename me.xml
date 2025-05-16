@@ -1,8 +1,23 @@
 <user>
 <ism>Bobur</ism>
 <sharif>Qobilob</sharif>
-<education>
+<educations>
+    <education>
     <nomi>TATU</nomi>
     <fakultet>Menejment</fakultet>
 </education>
+<education>
+    <nomi>285</nomi>
+</education>
+</educations>
+<friends>
+    <person>
+        <ism>Temur</ism>
+    <educations>
+        <education>
+            <nomi>tatu</nomi>
+        </education>
+    </educations>
+    </person>
+</friends>
 </user>
