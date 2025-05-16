@@ -1,0 +1,30 @@
+<salon>
+    <cars>
+        <model>
+            <name>cobalt</name>
+            <price>3000</price>
+            <colour>
+                <id>1,2,3</id>
+            </colour>
+        </model>
+        <model>
+            <name>malibu</name>
+            <price>6000</price>
+            <colour>
+                <id>1,3</id>
+            </colour>
+        </model>
+        <model>
+            <name>matiz</name>
+            <price>1000</price>
+            <colour>
+                <id>2,3</id>
+            </colour>
+        </model>
+    </cars>
+    <colours>
+        <colour id="1">red</colour>
+        <colour id="2">white</colour>
+        <colour id="3">black</colour>
+    </colours>
+</salon>
