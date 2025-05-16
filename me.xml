@@ -1,6 +1,8 @@
-<odam>
+<user>
 <ism>Bobur</ism>
 <sharif>Qobilob</sharif>
-<nomi>TATU</nomi>
-<fakultet>Menejment</fakultet>
-</odam>
+<education>
+    <nomi>TATU</nomi>
+    <fakultet>Menejment</fakultet>
+</education>
+</user>
