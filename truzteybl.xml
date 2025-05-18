@@ -1,0 +1,50 @@
+<table>
+    <values>
+        <value>true</value>
+        <value>false</value>
+    </values>
+    <combinations>
+        <binary>
+            <comb id="1">true & true</comb>
+            <comb id="2">true & false</comb>
+            <comb id="3">false & true</comb>
+            <comb id="4">false & false</comb>
+        </binary>
+        <unary>
+            <comb id="5">true</comb>
+            <comb id="6">false</comb>
+        </unary>
+    </combinations>
+    <operations>
+        <AND>
+            <result combId="1">true</result>
+            <result combId="2">false</result>
+            <result combId="3">false</result>
+            <result combId="4">false</result>
+        </AND>
+        <OR>
+            <result combId="1">true</result>
+            <result combId="2">true</result>
+            <result combId="3">true</result>
+            <result combId="4">false</result>
+        </OR>
+        <IMPLICATION>
+            <result combId="1">true</result>
+            <result combId="2">false</result>
+            <result combId="3">true</result>
+            <result combId="4">true</result>
+        </IMPLICATION>
+        <EQUIVALENCE>
+            <result combId="1">true</result>
+            <result combId="2">false</result>
+            <result combId="3">false</result>
+            <result combId="4">true</result>
+        </EQUIVALENCE>
+        <NOT>
+            <result combId="5">false</result>
+            <result combId="6">true</result>
+        </NOT>
+
+    </operations>
+    
+</table>
