@@ -5,10 +5,10 @@
     </values>
     <combinations>
         <binary>
-            <comb id="1">true & true</comb>
-            <comb id="2">true & false</comb>
-            <comb id="3">false & true</comb>
-            <comb id="4">false & false</comb>
+            <comb id="1">true _ true</comb>
+            <comb id="2">true _ false</comb>
+            <comb id="3">false _ true</comb>
+            <comb id="4">false _ false</comb>
         </binary>
         <unary>
             <comb id="5">true</comb>
